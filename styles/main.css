@@ -1,0 +1,307 @@
+body,
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h3,
+h4,
+h5 {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+}
+
+footer .btn {
+    color: #fff;
+    width: 80px;
+    padding: 30px;
+}
+
+.btn {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.color-change {
+    background: -webkit-linear-gradient(left top, #5634F6, #DB8EC0, #FECAD2);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #5634F6, #DB8EC0, #FECAD2);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #5634F6, #DB8EC0, #FECAD2);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #5634F6, #DB8EC0, #FECAD2);
+}
+
+.section {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.navbar-offset {
+    padding-top: 7vh;
+}
+
+.use-block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-list {
+    margin-bottom: 7px;
+}
+
+.text-muted {
+    font-size: 1rem;
+}
+
+.price {
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 30px 0px 30px 0px;
+}
+
+.price small {
+    font-size: 1rem;
+}
+
+.card .btn {
+    color: #333333;
+    border-color: #333333;
+}
+
+.card-body {
+    padding: 2px;
+    padding-top:
+}
+
+.card-footer {
+    padding: 30px 0px 30px 0px;
+}
+
+.card h5 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.recommended-package {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.outro {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#about .fa {
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#features .fa {
+    color: #ff7139;
+    float: left;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#promo-vid {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#community img {
+    border-radius: 100%;
+    width: 100px;
+    height: auto;
+}
+
+#community p {
+    font-size: 0.8rem;
+    color: #000;
+}
+
+#community h5 {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+#community .card {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 12px;
+}
+
+#community img {
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+/* -------------------- Below from Creative Tim's Paper Kit -------------------- */
+
+.btn-outline-neutral {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.btn-outline-neutral:hover,
+.btn-outline-neutral:focus,
+.btn-outline-neutral:active,
+.btn-outline-neutral.active,
+.open>.btn-outline-neutral.dropdown-toggle {
+    background-color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.8);
+    border-color: #FFFFFF;
+}
+
+.btn-outline-neutral:hover .caret,
+.btn-outline-neutral:focus .caret,
+.btn-outline-neutral:active .caret,
+.btn-outline-neutral.active .caret,
+.open>.btn-outline-neutral.dropdown-toggle .caret {
+    border-top-color: rgba(255, 255, 255, 0.8);
+}
+
+.btn-outline-neutral .caret {
+    border-top-color: #FFFFFF;
+}
+
+.btn-outline-neutral.disabled,
+.btn-outline-neutral.disabled:hover,
+.btn-outline-neutral.disabled:focus,
+.btn-outline-neutral.disabled.focus,
+.btn-outline-neutral.disabled:active,
+.btn-outline-neutral.disabled.active,
+.btn-outline-neutral:disabled,
+.btn-outline-neutral:disabled:hover,
+.btn-outline-neutral:disabled:focus,
+.btn-outline-neutral:disabled.focus,
+.btn-outline-neutral:disabled:active,
+.btn-outline-neutral:disabled.active,
+.btn-outline-neutral[disabled],
+.btn-outline-neutral[disabled]:hover,
+.btn-outline-neutral[disabled]:focus,
+.btn-outline-neutral[disabled].focus,
+.btn-outline-neutral[disabled]:active,
+.btn-outline-neutral[disabled].active,
+fieldset[disabled] .btn-outline-neutral,
+fieldset[disabled] .btn-outline-neutral:hover,
+fieldset[disabled] .btn-outline-neutral:focus,
+fieldset[disabled] .btn-outline-neutral.focus,
+fieldset[disabled] .btn-outline-neutral:active,
+fieldset[disabled] .btn-outline-neutral.active {
+    background-color: transparent;
+    border-color: #FFFFFF;
+}
+
+.btn-outline-neutral:hover,
+.btn-outline-neutral:focus {
+    color: #403D39;
+    background-color: #FFFFFF;
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+
+.btn-outline-default {
+    border-color: #66615B;
+    color: #66615B;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.btn-outline-default:hover,
+.btn-outline-default:focus,
+.btn-outline-default:active,
+.btn-outline-default.active,
+.open>.btn-outline-default.dropdown-toggle {
+    background-color: #66615B;
+    color: rgba(255, 255, 255, 0.8);
+    border-color: #66615B;
+}
+
+.btn-outline-default:hover .caret,
+.btn-outline-default:focus .caret,
+.btn-outline-default:active .caret,
+.btn-outline-default.active .caret,
+.open>.btn-outline-default.dropdown-toggle .caret {
+    border-top-color: rgba(255, 255, 255, 0.8);
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    background-color: #F8F8FF;
+    color: #333333;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    border: 0 none;
+    -webkit-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -moz-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -o-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -ms-transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    transition: transform 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+}
+
+.card:not(.card-plain):hover {
+    box-shadow: 0px 12px 19px -7px rgba(0, 0, 0, 0.3);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+}
+
+.card .card-footer {
+    background: transparent;
+    border-top: 0 none;
+}
