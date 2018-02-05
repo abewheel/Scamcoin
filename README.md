@@ -12,7 +12,7 @@
 ## Description
 
 
-Scamcoin is a cryptocurrency created as a satire of the altcoin market. Follow the link to check out (scamcoinico.com)!
+Scamcoin is a cryptocurrency created as a satire of the altcoin market. Follow the link to check out [scamcoinico.com](scamcoinico.com)!
 
 
 ## About the Project
