@@ -3,7 +3,7 @@
 
 <p align="center">
 
-  <img src="https://github.com/abewheel/Scamcoin/blob/master/scamcoinss.jpg" alt="Website screenshot"/>
+  <img src="https://github.com/abewheel/Scamcoin/blob/master/scamcoinss.JPG" alt="Website screenshot"/>
 
 </p>
 
