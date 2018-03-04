@@ -18,10 +18,10 @@ Scamcoin is a cryptocurrency created as a satire of the altcoin market. Follow t
 ## About the Project
 
 
-This repository contains the web files for Scamcoin. I wrote Scamcoin from scratch in 2018 as a fun side project.
+This repository contains the web files and contracts for Scamcoin. I wrote Scamcoin in 2018 as a fun side project.
 
 
 ## Technical Details
 
 
-Scamcoin was implemented using standard web development technologies. Besides HTML, CSS, and Javascript, Scamcoin utilizes the jQuery library, the Bootstrap framework, Font Awesome icons, and some style elements from Creative Tim's Paper Kit Bootstrap UI kit. I created the logo and coin animation myself using GIMP 2 and Paint 3D. The site is hosted using cPanel's Linux-based web hosting.
+ScamCoin is an ERC-20 compliant token built with Solidity on the Ethereum network. It utilizes OpenZeppelin to create dynamic and distributed protocols for smart contract regulation. Besides HTML, CSS, and Javascript, the Scamcoin website utilizes the jQuery library, the Bootstrap framework, and Font Awesome icons. I created the logo and coin animation myself using GIMP 2 and Paint 3D. The site is hosted using cPanel's Linux-based web hosting.
